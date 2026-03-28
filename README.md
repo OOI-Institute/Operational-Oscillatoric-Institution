@@ -1,166 +1,174 @@
-% OOI README (LaTeX) — Operational Oscillatoric Institution
-% Save as README.tex for repository display or conversion.
+# OOI — Operational Oscillatoric Institution
 
-\documentclass[11pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\usepackage{geometry}
-\usepackage{enumitem}
-\usepackage{parskip}
-\usepackage{fancyvrb}
-\geometry{margin=1in}
-\hypersetup{
-  colorlinks=true,
-  linkcolor=blue,
-  urlcolor=blue,
-  pdftitle={OOI — Operational Oscillatoric Institution},
-  pdfauthor={OOI}
-}
+**A sustainable intelligence architecture that stabilizes complexity and safely supports innovation across critical sectors.**
 
-\begin{document}
+---
 
-\begin{center}
-  {\LARGE \textbf{OOI — Operational Oscillatoric Institution}}\
+## Table of Contents
 
-\[6pt]
-  {\large \textbf{A sustainable intelligence architecture that stabilizes complexity and safely supports innovation across critical sectors.}}
-\end{center}
+- [Overview](#overview)
+- [Quick Start](#quick-start)
+- [What Is in This Repository](#what-is-in-this-repository)
+- [Architecture Summary](#architecture-summary)
+  - [Shells](#shells-deployable-surface)
+  - [Physics Spine](#physics-spine-internal-reasoning)
+  - [Domain Reference Builds](#domain-reference-builds)
+- [Design Commitments](#design-commitments)
+- [Governance and Human Role](#governance-and-human-role)
+- [Who This Is For](#who-this-is-for)
+- [Contributing and License](#contributing-and-license)
+- [Status and Roadmap](#status-and-roadmap)
+- [Contact](#contact)
 
-\vspace{12pt}
+---
 
-\tableofcontents
-\bigskip
+## Overview
 
-\section{Overview}
-OOI (Operational Oscillatoric Institution) is an infrastructure‑first architecture for safety and sustainability in complex systems. It is built to preserve the structural conditions under which sound judgment, coherence, and durable governance remain possible as systems accelerate and couple across domains.
+OOI (Operational Oscillatoric Institution) is an infrastructure-first architecture for safety and sustainability in complex systems. It is built to preserve the structural conditions under which sound judgment, coherence, and durable governance remain possible as systems accelerate and couple across domains.
 
-\begin{quote}
-``OOI is a long‑arc infrastructure framework for stabilizing complexity across biological, technological, institutional, economic, and environmental systems.''\\
-``OOI is built to preserve the structural conditions under which good decisions, stable institutions, and sustainable futures remain possible.''
-\end{quote}
-\noindent Source: OOI canonical mission document.\footnote{OOI mission document (canonical README content).}
+> "OOI is a long-arc infrastructure framework for stabilizing complexity across biological, technological, institutional, economic, and environmental systems."
 
-\section{Quick start}
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item \textbf{Purpose:} This document is the canonical, read‑only description of OOI's mission, architecture, shells, governance posture, and domain reference approach.
-  \item \textbf{If you are new:}
-    \begin{enumerate}
-      \item Read \textbf{Architecture summary} to understand the layered approach.
-      \item Review \textbf{Design commitments} and \textbf{Governance and human role}.
-      \item For deeper architectural inquiry or partnership discussions, contact \texttt{OscieIntel@outlook.com}.
-    \end{enumerate}
-\end{itemize}
+> "OOI is built to preserve the structural conditions under which good decisions, stable institutions, and sustainable futures remain possible."
 
-\section{What is in this repository}
+---
+
+## Quick Start
+
+- **Purpose:** This document is the canonical, read-only description of OOI's mission, architecture, shells, governance posture, and domain reference approach.
+
+**If you are new:**
+
+1. Read [Architecture Summary](#architecture-summary) to understand the layered approach.
+2. Review [Design Commitments](#design-commitments) and [Governance and Human Role](#governance-and-human-role).
+3. For deeper architectural inquiry or partnership discussions, contact [OscieIntel@outlook.com](mailto:OscieIntel@outlook.com).
+
+---
+
+## What Is in This Repository
+
 This repository contains the canonical documentation for the OOI architecture and mission. It is intentionally focused on conceptual and governance artifacts rather than accepting public contributions.
 
-Typical contents (conceptual):
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item Mission and framing
-  \item Shell definitions and descriptions
-  \item Architecture notes and the physics spine
-  \item Domain reference builds (examples and constraints)
-  \item Governance artifacts (safety checklists, review templates, charters)
-  \item Roadmap and status
-\end{itemize}
+**Typical contents (conceptual):**
 
-\section{Architecture summary}
+- Mission and framing
+- Shell definitions and descriptions
+- Architecture notes and the physics spine
+- Domain reference builds (examples and constraints)
+- Governance artifacts (safety checklists, review templates, charters)
+- Roadmap and status
+
+---
+
+## Architecture Summary
+
 OOI is layered so philosophical commitments map to concrete, auditable infrastructure.
 
-\subsection{Shells (deployable surface)}
-Shells are the licensable, host‑sovereign layers that enforce boundedness, interpretability, drift detection, and operator controls. Examples include:
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item \textbf{SafeSkin} — bounded outputs and coherence corridors.
-  \item \textbf{SmartSkin} — role‑aware, human‑legible translation of outputs.
-  \item \textbf{SmartDrift} — long‑arc drift and degradation detection.
-  \item \textbf{JitterShell} — temporal instability and oscillation management.
-  \item \textbf{4D‑GR Shell} — phase‑aware, oscillatory interpretation logic.
-  \item \textbf{SmartScience} — constraint‑aware scientific/medical scaffolding.
-  \item \textbf{SafeVault} — output protection, IP boundaries, misuse resistance.
-  \item \textbf{RELSkin} — context‑sensitive alignment between intelligences and roles.
-\end{itemize}
+### Shells (Deployable Surface)
 
-\subsection{Physics spine (internal reasoning)}
-Beneath the shells sits the physics spine: kernel orchestration, coherence dynamics, resonance modeling, drift/entropy balancing, and bounded reasoning structures. This layer encodes the operating logic that keeps shells coherent under pressure and is intentionally non‑consumer facing.
+Shells are the licensable, host-sovereign layers that enforce boundedness, interpretability, drift detection, and operator controls.
 
-\subsection{Domain reference builds}
+| Shell | Description |
+|---|---|
+| **SafeSkin** | Bounded outputs and coherence corridors |
+| **SmartSkin** | Role-aware, human-legible translation of outputs |
+| **SmartDrift** | Long-arc drift and degradation detection |
+| **JitterShell** | Temporal instability and oscillation management |
+| **4D-GR Shell** | Phase-aware, oscillatory interpretation logic |
+| **SmartScience** | Constraint-aware scientific/medical scaffolding |
+| **SafeVault** | Output protection, IP boundaries, misuse resistance |
+| **RELSkin** | Context-sensitive alignment between intelligences and roles |
+
+### Physics Spine (Internal Reasoning)
+
+Beneath the shells sits the physics spine: kernel orchestration, coherence dynamics, resonance modeling, drift/entropy balancing, and bounded reasoning structures. This layer encodes the operating logic that keeps shells coherent under pressure and is intentionally non-consumer facing.
+
+### Domain Reference Builds
+
 OOI is instantiated through domain builds that adapt core primitives to sector needs:
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item Healthcare (clinical continuity, care‑team reasoning)
-  \item Energy \& water systems (stability, stewardship)
-  \item Mobility \& manufacturing (bounded automation, legibility)
-  \item Education \& civic systems (role translation, public interest safeguards)
-  \item Knowledge \& media systems (provenance, bounded summarization)
-\end{itemize}
 
-\section{Design commitments}
+- **Healthcare** — clinical continuity, care-team reasoning
+- **Energy & Water Systems** — stability, stewardship
+- **Mobility & Manufacturing** — bounded automation, legibility
+- **Education & Civic Systems** — role translation, public interest safeguards
+- **Knowledge & Media Systems** — provenance, bounded summarization
+
+---
+
+## Design Commitments
+
 OOI is governed by explicit commitments:
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item \textbf{Boundedness} — systems must remain governable.
-  \item \textbf{Interpretability} — outputs must be human‑legible.
-  \item \textbf{Host sovereignty} — deploying organizations retain authority.
-  \item \textbf{Non‑extractive posture} — value should not depend on exploitative surveillance.
-  \item \textbf{Human‑centered stability} — support human judgment rather than replace it.
-  \item \textbf{Long‑arc sustainability} — evaluate systems for maintainability and ethical stability over time.
-\end{itemize}
 
-\section{Governance and human role}
+- **Boundedness** — systems must remain governable.
+- **Interpretability** — outputs must be human-legible.
+- **Host Sovereignty** — deploying organizations retain authority.
+- **Non-Extractive Posture** — value should not depend on exploitative surveillance.
+- **Human-Centered Stability** — support human judgment rather than replace it.
+- **Long-Arc Sustainability** — evaluate systems for maintainability and ethical stability over time.
+
+---
+
+## Governance and Human Role
+
 OOI centers stewardship and human responsibility:
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item Preserve the human in the loop for high‑stakes decisions.
-  \item Avoid non‑consensual decision substitution.
-  \item Provide auditable controls, role‑aware interfaces, and escalation paths.
-  \item Prioritize safety before scale and sustainability before speed.
-\end{itemize}
 
-\section{Who this is for}
+- Preserve the human in the loop for high-stakes decisions.
+- Avoid non-consensual decision substitution.
+- Provide auditable controls, role-aware interfaces, and escalation paths.
+- Prioritize safety before scale and sustainability before speed.
+
+---
+
+## Who This Is For
+
 OOI is intended for:
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item Builders of infrastructure for complex systems.
-  \item Institutions seeking durable, legible governance for automation and AI.
-  \item Researchers exploring coherence, drift, and long‑arc stability.
-  \item Operators responsible for safety under pressure.
-  \item Partners in public interest, healthcare, energy, and civic systems.
-\end{itemize}
 
-\section{Contributing and license}
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item \textbf{No contributions accepted for this document.} This README and canonical mission documents are published as the authoritative, read‑only representation of OOI's framing.
-  \item \textbf{Partnerships or formal proposals:} contact \texttt{OscieIntel@outlook.com}.
-  \item \textbf{License for this document:} Creative Commons Attribution 4.0 International (CC BY 4.0). You may reuse, redistribute, and adapt this document provided you give appropriate credit to OOI and indicate if changes were made.
-\end{itemize}
+- Builders of infrastructure for complex systems.
+- Institutions seeking durable, legible governance for automation and AI.
+- Researchers exploring coherence, drift, and long-arc stability.
+- Operators responsible for safety under pressure.
+- Partners in public interest, healthcare, energy, and civic systems.
 
-\section{Status and roadmap}
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item \textbf{Current status:} active, evolving infrastructure mission. Some layers are architectural; some are operational; some are in domain pilot deployments.
-  \item \textbf{Near‑term priorities:}
-    \begin{itemize}[leftmargin=*,noitemsep]
-      \item Formalize shell API contracts and test harnesses.
-      \item Publish domain reference build for clinical continuity (SafeMed prototype).
-      \item Publish governance charter and safety review process.
-      \item Expand example integrations for energy and mobility pilots.
-    \end{itemize}
-\end{itemize}
+---
 
-\section{Contact}
+## Contributing and License
+
+- **No contributions accepted for this document.** This README and canonical mission documents are published as the authoritative, read-only representation of OOI's framing.
+- **Partnerships or formal proposals:** contact [OscieIntel@outlook.com](mailto:OscieIntel@outlook.com).
+
+---
+
+## Status and Roadmap
+
+**Current status:** Active, evolving infrastructure mission. Some layers are architectural; some are operational; some are in domain pilot deployments.
+
+**Near-term priorities:**
+
+- [ ] Formalize shell API contracts and test harnesses
+- [ ] Publish domain reference build for clinical continuity (SafeMed prototype)
+- [ ] Publish governance charter and safety review process
+- [ ] Expand example integrations for energy and mobility pilots
+
+---
+
+## Contact
+
 For deeper architectural insight, partnership inquiries, or formal collaboration requests, contact:
 
-\begin{center}
-  \texttt{OscieIntel@outlook.com}
-\end{center}
+**[OscieIntel@outlook.com](mailto:OscieIntel@outlook.com)**
 
-\section{Closing note}
-OOI is a long‑arc infrastructure project: an architecture for preserving coherence, strengthening human judgment, and stabilizing complex systems across domains. This document is published openly to support stewardship, transparency, and responsible engagement with the architecture.
+---
 
-\bigskip
-\noindent\textbf{Quick links (conceptual):}
-\begin{itemize}[leftmargin=*,noitemsep]
-  \item Architecture overview: \texttt{/architecture/README.md}
-  \item Shell specs: \texttt{/shells/README.md}
-  \item Domain builds: \texttt{/domains/README.md}
-  \item Security: \texttt{SECURITY.md}
-  \item Roadmap: \texttt{ROADMAP.md}
-\end{itemize}
+## Closing Note
 
-\end{document}
+OOI is a long-arc infrastructure project: an architecture for preserving coherence, strengthening human judgment, and stabilizing complex systems across domains. This document is published openly to support stewardship, transparency, and responsible engagement with the architecture.
+
+---
+
+**Quick links (conceptual):**
+
+- Architecture overview: [`/architecture/README.md`](/architecture/README.md)
+- Shell specs: [`/shells/README.md`](/shells/README.md)
+- Domain builds: [`/domains/README.md`](/domains/README.md)
+- Security: [`SECURITY.md`](/SECURITY.md)
+- Roadmap: [`ROADMAP.md`](/ROADMAP.md)
 
