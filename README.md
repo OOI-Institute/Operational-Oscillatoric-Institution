@@ -16,7 +16,6 @@
 - [Design Commitments](#design-commitments)
 - [Governance and Human Role](#governance-and-human-role)
 - [Who This Is For](#who-this-is-for)
-- [Contributing and License](#contributing-and-license)
 - [Contact](#contact)
 
 ---
@@ -123,13 +122,6 @@ OOI is intended for:
 - Researchers exploring coherence, drift, and long‑arc stability.  
 - Operators responsible for safety under pressure.  
 - Partners in public interest, healthcare, energy, and civic systems.  
-
----
-
-## Contributing and License
-
-- **No contributions accepted for this document.** This README and canonical mission documents are published as the authoritative, read‑only representation of OOI's framing.  
-- **Partnerships or formal proposals:** contact [OscieIntel@outlook.com](mailto:OscieIntel@outlook.com).  
 
 ---
 
